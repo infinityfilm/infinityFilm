@@ -1,7 +1,7 @@
 ---
 nom1: EL CLUB DE LA LUCHA
-img1: /recursos/ClubDeLucha.jpg
-url1: /pages/pelis/elclubdelalucha.html
+img1: {{ site.baseurl }}/recursos/ClubDeLucha.jpg
+url1: {{ site.baseurl }}/pages/pelis/elclubdelalucha.html
 nom2: ROCKY BALBOA
 img2: /recursos/Rocky.jpg
 url2: /pages/pelis/rockybalboa.html

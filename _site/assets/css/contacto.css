@@ -35,7 +35,7 @@ body {
   float: center;
   background-size: cover;
   margin-top: -20px;
-  background-image: url("infinityfilm.github.io/infinityFilm/recursos/fondoclasicos.png");
+  background-image: url("/infinityFilm/recursos/fondoclasicos.png");
   background-attachment: fixed; }
 
 table.center {
