@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #666;
+  background: #f2f2f2;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding-top: 80px; }
+
+.main-header {
+  background: #0d0d0d;
+  color: white;
+  height: 80px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed; }
+
+.main-header a {
+  color: white; }
+
+nav {
+  float: right; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-right: 20px; }
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px; }
+
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  text-decoration: none; }
+
+nav ul li a:hover {
+  background: #7F0C0C; }
+
+.logo {
+  margin-top: -62px;
+  margin-left: 44%; }
+
+body {
+  width: 100%;
+  background-image: url("/recursos/fondoclasicos.png");
+  float: center;
+  background-repeat: repeat;
+  background-size: cover; }
+
+table.center {
+  margin-left: auto;
+  margin-right: auto; }
+
+th {
+  padding: 10px; }
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px; }
+
+.centrado a {
+  font-family: Arial;
+  font-style: italic;
+  text-decoration: none;
+  color: white;
+  margin: 0px 10px; }
+
+.fringe {
+  text-align: center;
+  font-size: 130%;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 15px;
+  height: 50px;
+  background: #7F0C0C;
+  opacity: .90;
+  padding: 10px 0px 10px 0px; }
+
+.center {
+  border: black 4px solid;
+  margin: 30px;
+  background: #141414; }
+
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 999; }
+
+.header-top {
+  width: 100%;
+  background: #0d0d0d; }
+
+.navegacion {
+  width: 90%;
+  margin-left: 40px;
+  margin-top: -100px; }
+
+input[type="search"] {
+  padding: 10px;
+  padding-right: 35px;
+  border: none; }
+
+.search {
+  width: 90%;
+  max-width: 1000px;
+  background: #0d0d0d;
+  padding: 0 10px;
+  padding-bottom: 5px;
+  max-height: 100%;
+  overflow-x: hidden;
+  display: none; }
+
+.search-table {
+  width: 100%; }
+
+.t
+a {
+  text-decoration: none;
+  font-size: 18px;
+  z-index: 100; }
+
+.tbody td {
+  border: 1px solid #0d0d0d;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: left;
+  background-color: #0d0d0d;
+  z-index: 99;
+  text-decoration: none; }
+
+.tbody td a {
+  text-decoration: none; }
+
+.tbody td:hover {
+  background-color: #7F0C0C;
+  border: 1px solid white;
+  z-index: 101;
+  text-decoration: none; }
+
+.search::-webkit-scrollbar {
+  background: rgba(0, 0, 0, 0); }
+
+.search::-webkit-scrollbar-button {
+  background: #C1C1C1; }
+
+.thead td {
+  border: 0.1px solid #0d0d0d;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: #0d0d0d;
+  color: white; }
+
+.thead td:hover {
+  background-color: #0d0d0d;
+  border: 0.1px solid #0d0d0d; }
+
+.search::-webkit-scrollbar-thumb {
+  background: #C1C1C1; }
+
+thead {
+  display: none; }
+
+tbody {
+  z-index: 102; }
+
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate {
+  display: none; }
+
+.cartelera {
+  z-index: 1; }
+
+img {
+  z-index: 2; }

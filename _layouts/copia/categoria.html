@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/assets/css/categoria.css">
+  <script src="/buscador/js/jquery.js"></script>
+	<script src="/buscador/js/jquery.dataTables.min.js"></script>
+</head>
+<div class="cabecera">
+<header class="main-header">
+
+  <div class="header-top">
+    <a class="logo-header" href="#">
+  		<span><a href="/pages/temas.html"><img class="logo" src="/recursos/logo.png"></span>
+  	</a>
+  	<nav>
+  		<ul>
+  			<li><a href="index.html">Inicio</a></li>
+  			<li><a href="#">Acerca de</a></li>
+  			<li><a href="#">Contacto</a></li>
+  		</ul>
+  	</nav>
+    <div class="navegacion">
+      <input type="search" placeholder="Buscar . . ." id="inputBusqueda">
+    </div>
+
+  </div>
+  <div class="search" id="search">
+    <table class="search-table" id="searchTable">
+      <thead class="thead">
+        <tr>
+          <td ></td>
+        </tr>
+      </thead>
+      <tbody class="tbody" >
+        <tr >
+          <td><a href="viento.html">Lo que el viento se llevó</a></td>
+        </tr>
+        <tr >
+          <td><a href="elpadrino.html">El Padrino</a></td>
+        </tr>
+        <tr >
+          <td><a href="casablanca.html">Casablanca</a></td>
+        </tr>
+        <tr >
+          <td><a href="psicosis.html">Psicosis</a></td>
+        </tr>
+        <tr >
+          <td><a href="confaldasyaloloco.html">Con faldas y a lo loco</a></td>
+        </tr>
+        <tr >
+          <td><a href="elgrandictador.html">El gran dictador</a></td>
+        </tr>
+        <tr >
+          <td><a href="clubdelalucha.html">Club de la lucha</a></td>
+        </tr>
+        <tr >
+          <td><a href="rocky.html">Rocky</a></td>
+        </tr>
+        <tr >
+          <td><a href="malditosbastardos.html">Malditos bastardos</a></td>
+        </tr>
+        <tr >
+          <td><a href="matrix.html">Matrix</a></td>
+        </tr>
+        <tr >
+          <td><a href="killbill.html">Kill Bill</a></td>
+        </tr>
+        <tr >
+          <td><a href="regresoalfuturo.html">Regreso al futuro</a></td>
+        </tr>
+        <tr >
+          <td><a href="lanaranjamecanica.html">La naranja mecánica</a></td>
+        </tr>
+        <tr >
+          <td><a href="avatar.html">Avatar</a></td>
+        </tr>
+        <tr >
+          <td><a href="terminator.html">Terminator</a></td>
+        </tr>
+        <tr >
+          <td><a href="losvengadores.html">Los Vengadores</a></td>
+        </tr>
+        <tr >
+          <td><a href="lamuertedestalin.html">La muerte de stalin</a></td>
+        </tr>
+        <tr >
+          <td><a href="lavidadebrian.html">La vida de brian</a></td>
+        </tr>
+        <tr >
+          <td><a href="ted.html">Ted</a></td>
+        </tr>
+        <tr >
+          <td><a href="scarymovie.html">Scary movie</a></td>
+        </tr>
+        <tr >
+          <td><a href="niñosgrandes.html">Niños grandes</a></td>
+        </tr>
+        <tr >
+          <td><a href="titanic.html">Titanic</a></td>
+        </tr>
+        <tr >
+          <td><a href="prettywoman.html">Pretty Woman</a></td>
+        </tr>
+        <tr >
+          <td><a href="elcuadernodenoah.html">El cuaderno de Noah</a></td>
+        </tr>
+        <tr >
+          <td><a href="bajolamismaestrella.html">Bajo la misma estrella</a></td>
+        </tr>
+        <tr >
+          <td><a href="orgullayprejuicio.html">Orgullo y prejuicio</a></td>
+        </tr>
+        <tr >
+          <td><a href="hallowen.html">Halloween</a></td>
+        </tr>
+        <tr >
+          <td><a href="elsecretodemarrowon.html">El secreto de marrowon</a></td>
+        </tr>
+        <tr >
+          <td><a href="expedientewarren.html">Expediente Warren</a></td>
+        </tr>
+        <tr >
+          <td><a href="saw.html">Saw</a></td>
+        </tr>
+        <tr >
+          <td><a href="insidious.html">Insidious</a></td>
+        </tr>
+        <tr >
+          <td><a href="elseñordelosanillos.html">El Señor de los anillos</a></td>
+        </tr>
+        <tr >
+          <td><a href="harrypotter.html">Harry Potter</a></td>
+        </tr>
+        <tr >
+          <td><a href="elhobbit.html">El hobbit</a></td>
+        </tr>
+        <tr >
+          <td><a href="lascronicasdenarnia.html">Las Crónicas de Narnia</a></td>
+        </tr>
+        <tr >
+          <td><a href="labrujuladorada.html">La brújula dorada</a></td>
+        </tr>
+        <tr >
+          <td><a href="shrek.html">Shrek</a></td>
+        </tr>
+        <tr >
+          <td><a href="elviajedechihiro.html">El viaje de chihiro</a></td>
+        </tr>
+        <tr >
+          <td><a href="monstruossa.html">Monstruos, S. A.</a></td>
+        </tr>
+        <tr >
+          <td><a href="koenokatachi.html">Koe no Katachi</a></td>
+        </tr>
+        <tr >
+          <td><a href="toystory.html">Toy Story</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</header>
+</div>
+<body>
+<div class="cartelera">
+<table class="center">
+<tr>
+    <th>
+      <div class="contenedor">
+      <img src="{{ page.img1 }}"/>
+      <div class="fringe">
+        <div class="centrado"><a href="{{ page.url1 }}">{{ page.nom1 }}</a></div>
+      </div>
+      </div>
+    </th>
+    <th>
+      <div class="contenedor">
+      <img src="{{ page.img2 }}"/>
+      <div class="fringe">
+        <div class="centrado"><a href="{{ page.url2 }}">{{ page.nom2 }}</a></div>
+      </div>
+      </div>
+    </th>
+    <th>
+      <div class="contenedor">
+      <img src="{{ page.img3 }}"/>
+      <div class="fringe">
+        <div class="centrado"><a href="{{ page.url3 }}">{{ page.nom3 }}</a></div>
+      </div>
+      </div>
+    </th>
+</tr>
+<tr>
+  <th>
+    <div class="contenedor">
+    <img src="{{ page.img4 }}"/>
+    <div class="fringe">
+      <div class="centrado"><a href="{{ page.url4 }}">{{ page.nom4 }}</a></div>
+    </div>
+    </div>
+  </th>
+  <th>
+    <div class="contenedor">
+    <img src="{{ page.img5 }}"/>
+    <div class="fringe">
+      <div class="centrado"><a href="{{ page.url5 }}">{{ page.nom5 }}</a></div>
+    </div>
+    </div>
+  </th>
+  <th>
+    <div class="contenedor">
+    <img src="{{ page.img6 }}"/>
+    <div class="fringe">
+      <div class="centrado"><a href="{{ page.url6 }}">{{ page.nom6 }}</a></div>
+    </div>
+    </div>
+  </th>
+</tr>
+</table>
+</div>
+</body>
+<script src="/buscador/js/buscador.js"></script>
+</html>

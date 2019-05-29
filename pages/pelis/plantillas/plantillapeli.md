@@ -1,0 +1,21 @@
+---
+titulo: 
+sinopsis: 
+imagenpeli: 
+youtube: 
+pais: 
+anyo: 
+genero: 
+duracion: 
+vose: 
+recaudacion: 
+actor1: 
+img1: 
+actor2: 
+img2: 
+actor3: 
+img3: 
+actor4:
+img4: 
+layout: peli
+---
