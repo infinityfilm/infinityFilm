@@ -17,5 +17,8 @@ url5: /pages/pelis/aladdin.html
 nom6: ROCKETMAN
 img6: /recursos/rocketman.jpg
 url6: /pages/pelis/rocketman.html
+nom7: 
+img7: 
+url7: 
 layout: categoria
 ---
