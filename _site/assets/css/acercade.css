@@ -42,7 +42,7 @@ body {
   float: center;
   background-size: cover;
   margin-top: -20px;
-  background-image: url("/recursos/fondoclasicos.png");
+  background-image: url("infinityfilm.github.io/infinityFilm/recursos/fondoclasicos.png");
   background-attachment: fixed; }
 
 table.center {
@@ -146,7 +146,7 @@ th {
   padding-bottom: -10px; }
 
 .rsi:hover {
-  content: url("/recursos/i2.png"); }
+  content: url("infinityfilm.github.io/infinityFilm/recursos/i2.png"); }
 
 .rst {
   width: 90px;
@@ -155,7 +155,7 @@ th {
   padding-bottom: 8px; }
 
 .rst:hover {
-  content: url("/recursos/t2.png"); }
+  content: url("infinityfilm.github.io/infinityFilm/recursos/t2.png"); }
 
 .rsy {
   width: 130px;
@@ -163,7 +163,7 @@ th {
   padding-right: 30px; }
 
 .rsy:hover {
-  content: url("/recursos/y2.png"); }
+  content: url("infinityfilm.github.io/infinityFilm/recursos/y2.png"); }
 
 .centrado2 {
   width: 50%;
