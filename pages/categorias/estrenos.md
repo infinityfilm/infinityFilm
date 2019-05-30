@@ -1,7 +1,7 @@
 ---
 nom1: INFILTRADO EN MIAMI
-img1: /recursos/Matrix.jpg
-url1: /pages/pelis/matrix.html
+img1: /recursos/infiltrado.jpg
+url1: /pages/pelis/infiltradoenmiami.html
 nom2: HELLBOY
 img2: /recursos/hellboy.jpg
 url2: /pages/pelis/hellboy.html
